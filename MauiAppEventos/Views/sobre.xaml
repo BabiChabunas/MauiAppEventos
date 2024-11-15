@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEventos.Views.sobre"
+             Title="sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor= "PowderBlue">
+
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10"
+                         Spacing="20">        
+        <Label 
+            Text="Sobre"
+            FontFamily="PlaywriteGBS-Italic-VariableFont_wght"
+            VerticalOptions="Center" 
+            FontSize="45"
+            TextColor="{StaticResource MidnightBlue}"/>
+        <Label 
+            Text="Hospede-se conosco."
+            FontFamily="PlaywriteGBS-Italic-VariableFont_wght"
+            VerticalOptions="Center" 
+            FontSize="20"
+            TextColor="{StaticResource MidnightBlue}"/>
+        
+    
+        <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                     Padding="10"
+                     >
+        <Label 
+            Text="Desenvolvedora: Bárbara Chabunas"
+            FontFamily="PlaywriteGBS-Italic-VariableFont_wght"
+            VerticalOptions="Center" 
+            FontSize="12"
+            TextColor="{StaticResource Primary}"/>
+            <Label 
+            Text="Ano: 2024"
+            FontFamily="PlaywriteGBS-Italic-VariableFont_wght"
+            VerticalOptions="Center" 
+            FontSize="12"
+            TextColor="{StaticResource Primary}"/>
+
+        </VerticalStackLayout>
+        <Button Text="Voltar"
+                Clicked="Button_Clicked"
+                />
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
